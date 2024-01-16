@@ -114,6 +114,7 @@
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
         height: 288px;
+        margin-right: 11px;
 
     }
 
@@ -143,6 +144,55 @@
         margin-left: 60px;
         margin-top: 10px;
 
+    }
+
+    .first-section {
+        /* display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px; */
+
+        flex-direction: column;
+        width: 375px;
+        margin: 0 auto;
+        
+
+    }
+
+    .first-section-content {
+        /* margin-right: 80px; */
+        gap: 16px;
+        width: 375px;
+        margin: 0 auto;
+        
+        
+    }
+
+
+    .t6 {
+        color: #131318;
+
+        font-size: 20px;
+
+        font-weight: 800;
+    }
+
+    .t7 {
+        color: rgba(19, 19, 24, 0.70);
+
+
+        font-size: 12px;
+
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .first-section-img {
+        margin: 0 auto;
+        margin-top: 15px;
+        
+        width: 335px;
+        height: 342px;
+        border-radius: 16px;
     }
 
 
