@@ -10,7 +10,7 @@
         height: 64px;
         margin-left: 3px;
         margin-right: 3px;
-        
+
         margin-top: 30px;
 
 
@@ -55,7 +55,95 @@
         transition: all 0.3s ease-in-out;
     }
 
+    .banner-content {
 
+
+        position: relative;
+
+
+
+    }
+
+    .banner-content img {
+        width: 335px;
+        height: 483px;
+
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    }
+
+    .text-block {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+
+        /* color: white; */
+        padding-left: 50px;
+        padding-right: 20px;
+        border-radius: 8px;
+        /* background: rgba(255, 255, 255, 0.30); */
+
+
+
+
+    }
+
+    .t4 {
+        color: #FFF;
+        font-size: 22px;
+        ;
+
+    }
+
+    .t5 {
+        color: #FFF;
+
+        /* text-align: center; */
+
+        font-size: 12px;
+        width: 304px;
+    }
+
+    .banner-dropdown {
+        display: flex;
+        width: 300px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        height: 288px;
+
+    }
+
+    .selector {
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FFF;
+        margin-top: 15px;
+        color: rgba(19, 19, 24, 0.50);
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    .search {
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        font-size: 16px;
+
+        font-weight: 700;
+        text-align: center;
+        margin-left: 60px;
+        margin-top: 10px;
+
+    }
 
 
 }
